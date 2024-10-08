@@ -3,10 +3,22 @@ footer {
   margin-top: 20px;
   background-color: #333;
 
-  .logo img {
+  .logo {
+
+    img {
       height: 40px;
       margin-right: 10px;
       padding-left: 20px;
+  }
+
+  .company-name {
+    color: white;
+    font-size: 18px;
+  }}
+
+  footer .logo .company-name {
+    color: white !important;
+    font-size: 18px;
   }
 
   .footer-bottom {
@@ -28,11 +40,12 @@ footer {
           }
       }
 
-      .nos-sites select {
+      .footer-select {
           padding: 5px;
           font-size: 14px;
           background-color: #585858;
           color: #ddd;
+          margin-bottom: 20px;
       }
   }
 }
