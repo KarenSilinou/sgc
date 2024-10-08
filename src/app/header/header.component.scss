@@ -1,0 +1,47 @@
+header {
+  height: 128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+
+  .logo {
+      display: flex;
+      align-items: center;
+
+      img {
+          height: 40px;
+          margin-right: 10px;
+      }
+  }
+
+  h1 {
+      font-size: 18px;
+      font-weight: normal;
+  }
+
+  .user-info {
+      display: flex;
+      align-items: center;
+
+      span {
+          margin-right: 10px;
+      }
+
+      img {
+          height: 30px;
+          border-radius: 50%;
+      }
+
+      .icon-width {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+      }
+
+  }
+
+}
+

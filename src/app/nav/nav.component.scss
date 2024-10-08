@@ -1,0 +1,22 @@
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  border-bottom: 2px solid;
+
+  li {
+      list-style: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      width: 100%;
+      text-align: center;
+
+      &.nav-border {
+          border-right: 1px solid #ddd;
+      }
+
+      &:hover {
+          background-color: #ddd;
+      }
+  }
+}

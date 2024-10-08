@@ -1,0 +1,39 @@
+.offres-similaires {
+  height: 520px;
+  padding: 50px;
+  margin: 25px;
+  padding-right: 300px;
+  background-color: #F5F7F9;
+
+  h2 {
+      margin-bottom: 20px;
+      font-size: 22px;
+      border-left: 2px solid #d9262c;
+      padding-left: 16px;
+      margin-left: 40px;
+  }
+
+  .offre {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-left: 30px;
+
+      .contrat {
+          font-weight: bold;
+          color: #d9262c;
+      }
+
+      .location {
+          font-size: 14px;
+          position: relative;
+          padding-left: 25px;
+          background-image: url('../../assets/assets/localisation.svg');
+          background-repeat: no-repeat;
+          background-size: 16px 16px;
+          background-position: left center;
+      }
+  }
+}
