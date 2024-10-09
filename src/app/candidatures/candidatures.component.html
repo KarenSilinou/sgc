@@ -14,22 +14,22 @@
           <tr>
               <td>3234</td>
               <td>Chef de service déploiement</td>
-              <td>13/08/2018</td>
+              <td>{{ '2018-08-13' | date: 'fullDate' | titlecase}}</td>
               <td>En cours</td>
-              <td style="color: blue;">Entretien le 31/08/2018</td>
+              <td style="color: blue;">Entretien le {{ '2018-08-31' | date: 'fullDate' }}</td>
           </tr>
           <tr>
               <td>3237</td>
               <td>Contrôleur de Gestion</td>
-              <td>14/08/2018</td>
-              <td>Entretien le 31/08/2018</td>
+              <td>{{ '2018-08-14' | date: 'fullDate' | titlecase}}</td>
+              <td>Entretien le {{ '2018-08-31' | date: 'fullDate' }}</td>
               <td class="rejected">Rejetée</td>
           </tr>
           <tr>
               <td>3237</td>
               <td>Conseillère clientèle</td>
-              <td>09/08/2018</td>
-              <td>Entretien le 31/08/2018</td>
+              <td>{{ '2018-08-09' | date: 'fullDate' | titlecase }}</td>
+              <td>Entretien le {{ '2018-08-31' | date: 'fullDate' }}</td>
               <td class="accepted">Accepté</td>
           </tr>
       </tbody>
